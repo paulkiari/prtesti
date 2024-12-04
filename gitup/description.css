@@ -1,0 +1,99 @@
+body{
+    background-image: url(smacclogo.jpg);
+}
+header {
+    background-color: darkgray;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header h1{
+    margin: 3px;
+    margin-left: 35px;
+  }
+  .word1 {
+    color:black;
+    font-weight: bolder;
+  }
+  
+  .word2 {
+    color: rgb(84, 21, 21); 
+    font-weight: bolder;
+  }
+.product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0 auto; /* Center the card on the screen */
+    width: 80%;
+    height: 80%;
+    background-color: white;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 45%; /* Set the width to 60% of the screen */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.2)
+  }
+
+  .product-info {
+
+    flex: 1;
+    padding-left: 20px;
+    align-items: center;
+  }
+  
+
+  .price{
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart, .buy-now {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
